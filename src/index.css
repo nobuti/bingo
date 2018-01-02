@@ -1,0 +1,89 @@
+/*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */
+
+html,
+body,
+p,
+ol,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.Checking {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+
+.Numbers {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+}
+
+.Number {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  opacity: 0.2;
+  font-size: 30px;
+}
+
+.is-past {
+  font-weight: 800;
+  opacity: 1;
+}
+
+.Current {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  font-size: 150px;
+  font-weight: 800;
+}
