@@ -1,4 +1,4 @@
-export const NUMBERS = 80;
+export const NUMBERS = 90;
 export const KEYS = {
   next: 39,
   check: 67,
